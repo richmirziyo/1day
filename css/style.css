@@ -33,9 +33,6 @@ html {
   transition: 0.6s;
 }
 
-.header-container {
-}
-
 .header-nav {
   ul {
     display: flex;
