@@ -2,14 +2,14 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
   height: 100vh;
 }
 
 .container {
-  margin-top: 50px;
-  margin-left: 50px;
+  /* width: 100%; */
 }
 
 .header {
@@ -18,14 +18,21 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 36px;
-  padding-left: 135px;
+  margin-top: 36px;
+  margin-left: 135px;
+  background-color: #f6ebda;
 }
 
 .header-logo {
   width: 150px;
   height: 30;
 }
+
+.header-logo:hover {
+  opacity: 60%;
+  transition: 0.6s;
+}
+
 .header-container {
 }
 
@@ -39,6 +46,11 @@ html {
 
     a {
       text-decoration: none;
+      color: #000000;
+    }
+    a:hover {
+      color: #ff902b;
+      transition: 0.3s;
     }
   }
 }
