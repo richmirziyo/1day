@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.header {
+  width: 1161px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 36px;
+  padding-left: 135px;
+}
+
+.header-logo {
+  width: 150px;
+  height: 30;
+}
+.header-container {
+}
+
+.header-nav {
+  ul {
+    display: flex;
+    gap: 32px;
+  }
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
