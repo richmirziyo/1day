@@ -9,7 +9,12 @@ html {
 }
 
 .container {
-  /* width: 100%; */
+  width: 100%;
+  max-width: 1500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -50,4 +55,21 @@ html {
       transition: 0.3s;
     }
   }
+}
+
+.main {
+}
+.hero {
+  /* background-image: url(../images/hero-image.png); */
+  background-repeat: no-repeat;
+}
+.hero-edit {
+  display: flex;
+  gap: 176px;
+  img {
+    width: 527px;
+    height: 416px;
+  }
+}
+.hero__title {
 }
