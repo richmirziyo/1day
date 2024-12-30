@@ -60,8 +60,9 @@ html {
 .main {
 }
 .hero {
+  background-color: #f6ebda;
   /* background-image: url(../images/hero-image.png); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 .hero-edit {
   display: flex;
@@ -72,4 +73,11 @@ html {
   }
 }
 .hero__title {
+  h2 {
+    width: 498px;
+    height: 144px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+  }
 }
